@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <h1>
+            STUDENT REGISTRATION FORM
+        </h1>
+        <div>
+           <label for="first_name">FIRST NAME</label> 
+           <input type="text" id="first_name" max="30">
+            <span> (max 30 char a-z and A-Z) </span> <br>
+           <label for="Last_name">LAST NAME</label> 
+           <input type="text" id="Last_name" max="30">
+           <span > (max 30 char a-z and A-Z) </span><br>
+           <label>DATE OF BIRTH</label>
+           <select>
+               <option value="1">Day</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               
+           </select>
+           <select >
+               <option value="month">Month</option>
+               <option value="Jan">Jan</option>
+               <option value="Feb">Feb</option>
+           </select>
+           <select>
+               <option value="year">Year</option>
+               <option value="1997">1997</option>
+               <option value="1998">1999</option>
+               <option value="1999">1999</option>
+           </select><br>
+           <label for="email">EMAIL ID</label>
+           <input type="email" id="email"><br>
+           <label for="num">MOBILE NUMBER</label>
+           <input type="number" id="num" max="10">
+           <span> (10 digit number) </span><br>
+           <label for="gender">GENDER</label>
+           <label for="male">Male</label>
+           <input type="radio" name="gender">
+           <label for="female">Female</label>
+           <input type="radio" name="gender"><br>
+           <label for="address">ADDRESS</label>
+           <textarea id="address" cols="30" rows="10"></textarea><br>
+           <label for="city">CITY</label>
+           <input type="text" max="30">
+           <span> (max 30 char a-z and A-Z) </span><br>
+           <label for="pincode">PINCODE</label>
+           <input type="number" id="pincode" max="6">
+           <span> (6 digit number) </span><br>
+           <label for="state">STATE</label>
+           <input type="text" id="state" max="30">
+           <span> (max 30 char a-z and A-Z) </span><br>
+           <label for="country">COUNTRY</label>
+           <input type="" placeholder="INDIA"><br>
+           <label>HOBBIES</label>
+           <label for="drawing">Drawing</label>
+           <input type="checkbox" id="drawing">
+           <label for="singing">Singing</label>
+           <input type="checkbox" id="singing">
+           <label for="dancing">Dancing</label>
+           <input type="checkbox" id="dancing">
+           <label for="sketching">Sketching</label>
+           <input type="checkbox" id="sketching">
+           <label for="others">Others</label>
+           <input type="checkbox" id="others">
+        </div>
+    </form>
+</body>
+</html>
